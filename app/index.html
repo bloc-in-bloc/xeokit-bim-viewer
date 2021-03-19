@@ -23,6 +23,7 @@
     <div id="myViewer" class="xeokit-busy-modal-backdrop">
         <div id="myExplorer" class="active"></div>
         <div id="myContent">
+            <span id="loader" style="display: block; padding-right: 10px; text-align: right;"></span>
             <div id="myToolbar"></div>
             <canvas id="myCanvas"></canvas>
         </div>
@@ -36,7 +37,8 @@
 
 <script type="module">
     // Set up application
-    import {Server, BIMViewer} from "../dist/main.js";
+    import {Server as ServerGLTF, BIMViewer as BIMViewerGLTF} from "../dist/main_gltf.js";
+    import {Server as ServerXKT, BIMViewer as BIMViewerXKT} from "../dist/main_xkt.js";
 
     window.onload = function () {
 
@@ -49,22 +51,34 @@
             return;
         }
 
+        const gltfLoader = requestParams.gltfLoader;
+
+        document.getElementById("loader").innerHTML = gltfLoader ? "GLTF Loader" : "XKT Loader";
+
         const enableEditModels = (requestParams.enableEditModels === "true");
 
         // Server client will load data from the file systems
-        const server = new Server({
+        const server = gltfLoader ? new ServerGLTF({
+            dataDir: "./data"
+        }) : new ServerXKT({
             dataDir: "./data"
         });
 
         // Create  BIMViewer that loads data via the Server
-        const bimViewer = new BIMViewer(server, {
+        const bimViewer = gltfLoader ? new BIMViewerGLTF(server, {
             canvasElement: document.getElementById("myCanvas"), // WebGL canvas
             explorerElement: document.getElementById("myExplorer"), // Left panel
             toolbarElement: document.getElementById("myToolbar"), // Toolbar
             navCubeCanvasElement: document.getElementById("myNavCubeCanvas"),
             busyModelBackdropElement: document.querySelector(".xeokit-busy-modal-backdrop"),
             enableEditModels: enableEditModels
-
+        }) : new BIMViewerXKT(server, {
+            canvasElement: document.getElementById("myCanvas"), // WebGL canvas
+            explorerElement: document.getElementById("myExplorer"), // Left panel
+            toolbarElement: document.getElementById("myToolbar"), // Toolbar
+            navCubeCanvasElement: document.getElementById("myNavCubeCanvas"),
+            busyModelBackdropElement: document.querySelector(".xeokit-busy-modal-backdrop"),
+            enableEditModels: enableEditModels
         });
 
         // Create tooltips on various HTML elements created by BIMViewer

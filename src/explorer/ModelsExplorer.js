@@ -1,4 +1,4 @@
-import { GLTFLoaderPlugin } from "@xeokit/xeokit-sdk/src/plugins/GLTFLoaderPlugin/GLTFLoaderPlugin.js";
+import { XKTLoaderPlugin } from "@xeokit/xeokit-sdk/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js";
 import { math } from "@xeokit/xeokit-sdk/src/viewer/scene/math/math.js";
 import { ModelsContextMenu } from "../contextMenus/ModelsContextMenu.js";
 import { Controller } from "../Controller.js";
@@ -38,7 +38,7 @@ class ModelsExplorer extends Controller {
             throw "Missing DOM element: ,xeokit-tab-btn";
         }
 
-        this._xktLoader = new GLTFLoaderPlugin(this.viewer, {
+        this._xktLoader = new XKTLoaderPlugin(this.viewer, {
             objectDefaults: ModelIFCObjectColors
         });
 
