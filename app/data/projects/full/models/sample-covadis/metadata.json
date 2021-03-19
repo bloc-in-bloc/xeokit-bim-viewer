@@ -1,0 +1,256 @@
+{
+  "id": "TEST",
+  "projectId": "Ky40QmRkJCI9cT6fYA6ASm",
+  "author": "",
+  "createdAt": "2021-01-14T14:14:52",
+  "schema": "IFC4X1",
+  "creatingApplication": "IfcPlusPlus",
+  "metaObjects": [
+    {
+      "id": "Ky40QmRkJCI9cT6fYA6ASm",
+      "name": "TEST",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$33EB",
+      "name": "MNT-TN",
+      "type": "IfcSite",
+      "parent": "Ky40QmRkJCI9cT6fYA6ASm"
+    },
+    {
+      "id": "OZlVhMpRI_ET17W4Wir3BG",
+      "name": "Non défini",
+      "type": "IfcBuilding",
+      "parent": "pMS3qUTnJrAjMoN7p$33EB"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$75FA",
+      "name": " Regard (N1)",
+      "type": "IfcFlowFitting",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$75FC",
+      "name": " Regard (N2)",
+      "type": "IfcFlowFitting",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$75FE",
+      "name": " Regard (N3)",
+      "type": "IfcFlowFitting",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$7600",
+      "name": " Regard (N4)",
+      "type": "IfcFlowFitting",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$7629",
+      "name": " Regard (N5)",
+      "type": "IfcFlowFitting",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$762B",
+      "name": " Regard (N6)",
+      "type": "IfcFlowFitting",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$762D",
+      "name": " Regard (N7)",
+      "type": "IfcFlowFitting",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$762F",
+      "name": " Regard (N8)",
+      "type": "IfcFlowFitting",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$7631",
+      "name": " Regard (N9)",
+      "type": "IfcFlowFitting",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$91F1",
+      "name": " Regard (N10)",
+      "type": "IfcFlowFitting",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$75C6",
+      "name": " Canalisation (N1 -> N2)",
+      "type": "IfcFlowSegment",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$75C6",
+      "name": " Canalisation (N2 -> N3)",
+      "type": "IfcFlowSegment",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$75C6",
+      "name": " Canalisation (N3 -> N4)",
+      "type": "IfcFlowSegment",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$760C",
+      "name": " Canalisation (N5 -> N6)",
+      "type": "IfcFlowSegment",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$760C",
+      "name": " Canalisation (N6 -> N7)",
+      "type": "IfcFlowSegment",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$760C",
+      "name": " Canalisation (N7 -> N8)",
+      "type": "IfcFlowSegment",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$760C",
+      "name": " Canalisation (N8 -> N9)",
+      "type": "IfcFlowSegment",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$91CA",
+      "name": " Canalisation (N2 -> N10)",
+      "type": "IfcFlowSegment",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$91CA",
+      "name": " Canalisation (N10 -> N6)",
+      "type": "IfcFlowSegment",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$935F",
+      "name": "Passage pour piétons",
+      "type": "IfcBuildingElementProxy",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$9356",
+      "name": "Passage pour piétons",
+      "type": "IfcBuildingElementProxy",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$93C1",
+      "name": "A13b",
+      "type": "IfcBuildingElementProxy",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$9BA1",
+      "name": "J12",
+      "type": "IfcBuildingElementProxy",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$9BA2",
+      "name": "J12",
+      "type": "IfcBuildingElementProxy",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$360D",
+      "name": "Bâtiment 2",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$360F",
+      "name": "Bâtiment 3",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$3610",
+      "name": "Bâtiment 1",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$3611",
+      "name": "Bâtiment 5",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$3612",
+      "name": "Bâtiment 4",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$3614",
+      "name": "espace vert 4",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$3616",
+      "name": "espace vert 8",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$3630",
+      "name": "Voirie légère 1",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$3644",
+      "name": "Voirie légère 2",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$3646",
+      "name": "Bassin 1",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$3648",
+      "name": "espace vert 9",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$3649",
+      "name": "espace vert 6",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$364A",
+      "name": "espace vert 5",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    },
+    {
+      "id": "pMS3qUTnJrAjMoN7p$364B",
+      "name": "espace vert 7",
+      "type": "IfcSlab",
+      "parent": "OZlVhMpRI_ET17W4Wir3BG"
+    }
+  ]
+}

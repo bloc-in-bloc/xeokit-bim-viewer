@@ -1,0 +1,38 @@
+{
+  "id": "full",
+  "name": "full",
+  "models": [
+    {
+      "id": "house-berlin",
+      "name": "House Berlin"
+    }, 
+    {
+      "id": "numerimer",
+      "name": "Numerimer"
+    }, 
+    {
+      "id": "sample-covadis",
+      "name": "Sample Covadis"
+    }, 
+    {
+      "id": "sample-house",
+      "name": "Sample House"
+    }, 
+    {
+      "id": "tower",
+      "name": "Tower"
+    }
+  ],
+  "viewerConfigs": {
+    "cameraNear": "0.05",
+    "cameraFar": "3000.0",
+    "saoEnabled": "true",
+    "saoBias": "0.5",
+    "saoIntensity": "0.5",
+    "saoScale": "1200.0",
+    "saoKernelRadius": "100"
+  },
+  "viewerContent": {
+    "modelsLoaded": []
+  }
+}
