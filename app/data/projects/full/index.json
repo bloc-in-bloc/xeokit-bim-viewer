@@ -15,6 +15,10 @@
       "name": "Sample Covadis"
     }, 
     {
+      "id": "sample-covadis-draco",
+      "name": "Sample Covadis Draco"
+    }, 
+    {
       "id": "sample-house",
       "name": "Sample House"
     }, 
